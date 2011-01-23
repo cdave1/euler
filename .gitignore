@@ -83,3 +83,4 @@ doc/
 *.lai
 *.la
 *.a
+*.out
