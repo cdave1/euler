@@ -1,0 +1,8 @@
+<!-- Need to get spidermoney going so I can run this from the command line -->
+<script>
+f = function (a,b) { 
+  if (a == 1000) return b; 
+  else return (a % 3 == 0 || a % 5 == 0) ? f(a+1, a+b) : f(a+1, b); 
+}
+document.write (f(1,0));
+</script>
